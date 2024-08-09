@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:arial;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .footer_container {
+    background-color: #F4A300; /* Change to the desired yellow background */
+    padding: 20px 0;
+  }
+  .footer_info p {
+    font-size: 17px;
+    color: #000; /* Change text color to black */
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .footer_info p:hover {
+    color: #000; /* Maintain text color on hover */
+  }
+  .social_link_box {
+    background: #ffffff; /* Change to black background */
+    color: #FFF; /* Change icon color to white */
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .containera {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 15%;
+  }
+  .footer_left {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+  }
+  .footer_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer_right .footer_right_link_heading {
+    color: black; /* Change heading color to black */
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .footer_right .line {
+    width: 40px;
+    height: 3px;
+    background-color: #000; /* Change line color to black */
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .footer_right ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer_right ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000; /* Change link color to black */
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  .footer_right ul li a:hover {
+    color: #000; /* Maintain link color on hover */
+  }
+  .social_link_container {
+    display: flex;
+    gap: 6px;
+    padding-top: 35px;
+  }
+  .bottom_bar {
+    background-color: #000; /* Black background */
+    color: #FFF; /* White text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+  }
+  .app-store-links {
+    margin-top: 20px;
+  }
