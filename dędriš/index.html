@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BYDICK</title>
+</head>
+<body>
+    
+    <div class="container" id="app">
+        <div class="card">
+            <h1>{{ title }}</h1>
+            <div class="form-control">
+                <input type="text" 
+                v-bind:placeholder="myplaceholder"
+                v-bind:value="inputValue"
+                v-on:input="inputChangeHandler">
+            </div>
+            <h2>inputValue:{{inputValue}}</h2>
+            <button class="btn">+</button>
+            <hr>
+        </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+</html>
