@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BYDICK</title>
+</head>
+<body>
+    
+    <div id="app" class="app">
+        <h2>Записочник</h2>
+        <input v-model="newNote" placeholder="Введите заметку" />
+        <button @click="addNote">Добавить</button>
+        <ul>
+            <li v-for="(note, index) in notes" :key="index">{{ note }}</li>
+        </ul>
+    </div>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+</html>
